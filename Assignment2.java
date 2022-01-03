@@ -3,7 +3,7 @@ package assignment;
 public class Assignment2 {
 
 	public static void main(String[] args) {
-		// 1) Write code convert String to a number. For example ¡°6778¡± would be 6778 as the number 
+		// 1) Write code convert String to a number. For example Â¡Â°6778Â¡Â± would be 6778 as the number 
 		int num = Integer.parseInt("6778");
 		System.out.println(num); 
 		// 2) Write code which reverse a given DNA string into AND.
@@ -11,6 +11,7 @@ public class Assignment2 {
 		sb.reverse(); 
 		System.out.println(sb.toString());
 		// 3) The aim of this task is to split a given string into different strings of equal size 3.  
+		
 		String str = "123456789"; 
 		String str1, str2, str3; 
 		if(str.length()%3 == 0){ 
@@ -22,7 +23,7 @@ public class Assignment2 {
 		}else{ 
 			System.out.println("Cannot  split to equal size 3."); 
 		} 
-		// 4) Return index of substring in the String that search starts from start or end of string. For example: ¡°goMango¡±, for substring ¡°go¡± from beginning index = 0 and from end index = n-2. 
+		// 4) Return index of substring in the String that search starts from start or end of string. For example: Â¡Â°goMangoÂ¡Â±, for substring Â¡Â°goÂ¡Â± from beginning index = 0 and from end index = n-2. 
 		String token = "goMangoffgoff"; 
 		String strSub = "go"; 
 		int startIndext = token.indexOf(strSub); 
